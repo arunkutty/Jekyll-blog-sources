@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<!-- <img src="{{ site.email | to_gravatar }}" alt="A photo of {{ author.name }}" /> -->
 <img src="../images/ConcentratingAtWork.JPG" alt="Profile Photo of Arun" width="350" height="250">
 
 
