@@ -88,8 +88,8 @@ angular.module('expenseVouchersClientApp')
 ```
 
 Before I could get this whole thing working, there was a last piece remaining. How does the Angular app know where my backend server is running.
- The Angular app needs to be configured to let it know. For this, I used methods exposed by `LoopBackResourceProvider` in the app's config block
- to achieve this. Once again in the Angular module definition in `app/scripts/app.js`:
+ The Angular app needs to be configured to let it know, for which I used methods exposed by `LoopBackResourceProvider` in the app's
+ config block. Once again in the Angular module definition in `app/scripts/app.js`:
 
 ```javascript
  angular.module('expenseVouchersClientApp', ['ngAnimate', <other dependencies>, 'lbServices'])
