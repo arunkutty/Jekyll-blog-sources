@@ -18,3 +18,5 @@ github_username:  arunkutty
 
 # Build settings
 markdown: kramdown
+host: 0.0.0.0
+port: 9000
