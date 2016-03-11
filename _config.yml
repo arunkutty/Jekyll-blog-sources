@@ -6,11 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Following the White Rabbit
+title: Arun N. Kutty
 email: kutty.a@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This blog will contain notes I gather while following the white rabbit into the magical world of software applications.
-  Stay tuned for notes on Test Automation, Performance Testing and Web and Mobile app development.
+  Technical notes, wins, fails and more.
+  Stay tuned for notes on power use of IBM Rational Test Automation and performance testing tools.
+  And some tidbits on Web and Mobile app development.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://arunkutty.github.io" # the base hostname & protocol for your site
 twitter_username: kuttya
