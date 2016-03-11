@@ -31,6 +31,8 @@ namespace :blog do
     Dir.mktmpdir do |tmp|
       # Copy accross our compiled _site directory.
       cp_r "_site/.", tmp
+      # Don't lose the CNAME file for custom domain name
+      cp "CNAME", tmp
 
       # Switch in to the tmp dir.
       Dir.chdir tmp
