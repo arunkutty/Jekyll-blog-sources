@@ -4,6 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-I've been collaborating with my friend [Hari](https://harimenon.com/) on an open-source project [Kollavarsham.org](http://kollavarsham.org) on
-conversion of Gregorian Calendar Dates to it's Malayalam (A South Indian) Calendar equivalent. 
-Check out our [calendar](http://kollavarsham.org/calendar) app built on top of it.
+I am part of an open-source project [Kollavarsham.org](http://kollavarsham.org). We work on
+conversion of Gregorian Calendar dates to their Malayalam (A South Indian) Calendar equivalent. 
+Check out our [calendar web application](http://kollavarsham.org/calendar) built on top of it.
