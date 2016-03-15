@@ -10,10 +10,10 @@ title: Arun N. Kutty
 email: kutty.a@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Technical notes, wins, fails and more.
-  Stay tuned for notes on power use of IBM Rational Test Automation and performance testing tools.
+  Stay tuned for notes on power use of IBM Rational Test Automation and Performance Testing tools.
   And some tidbits on Web and Mobile app development.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://arunkutty.github.io" # the base hostname & protocol for your site
+url: "http://arunkutty.com" # the base hostname & protocol for your site
 twitter_username: kuttya
 github_username:  arunkutty
 
