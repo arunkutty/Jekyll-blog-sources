@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Correlating ViewState and EventValidation in an RPT Script
+title:  Correlating ViewState and EventValidation in an Rational Performance Tester (RPT) Script
 date:   2016-03-15 18:29:00 +0530
 categories: rpt correlation
 ---
@@ -10,7 +10,7 @@ use the attached [rules file based on RPT 8.7.1.x]({{site.url}}/assets/VS_EV_Rul
 ### Now for the story
 
 So, I was in the lookout for a good start for my notes on Rational Testing tools. Since this was a minor win of last week,
-I thought of jotting it down for the _posterity_ :wink:. If it becomes useful for someone, well, that's a pleasant side effect.
+I thought of jotting it down hoping that it would be useful for RPT users.
 
 Correlation, a term test automation engineers may be well aware, in simple terms means picking 
 up dynamic parts of server responses and substituting them in subsequent requests to the server. Using which a test automation tool mimics regular client software
@@ -41,7 +41,7 @@ substitutions don't work.
 
 After a few trials, I found out what was going wrong. The substitution rule's "decode" flag was set to the default "false". In this case, the server was sending ViewState and 
 EventValidation in URL Encoded form whereas they were in the decoded form in requests. Unless RPT is explicitly instructed to search for the "decoded" string by setting the
-substitution's "decode" flag to "true", search of substitution sites will fail and no substitutions will be done. A trivial modification was all that was needed for a minor but 
+substitution's "decode" flag to "true", search of substitution sites will fail and no substitutions will be done. A trivial modification was all that was needed for a minor albeit 
 satisfying win!
 
 
